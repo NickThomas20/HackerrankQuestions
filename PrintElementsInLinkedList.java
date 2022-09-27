@@ -1,12 +1,3 @@
-public static void print_linked_list(SinglyLinkedListNode head) {
-    // Write your code here
-        while(head != null){
-            System.out.println(head.data);
-            head = head.next;
-        }
-
-    }
-
 // This is an introduction to practice traversing a linked list. Given a pointer to the head node of a linked list, print each node's data element, one per line. If the head pointer is null (indicating the list is empty), there is nothing to print.
 
 // Function Description
@@ -39,3 +30,16 @@ public static void print_linked_list(SinglyLinkedListNode head) {
 
 // 16
 // 13
+
+
+
+public static void print_linked_list(SinglyLinkedListNode head) {
+    // Write your code here
+        while(head != null){
+            System.out.println(head.data);
+            head = head.next;
+        }
+
+    }
+
+
